@@ -1,13 +1,14 @@
 function a() {
-  var xz = 10;
-  console.log(xz);
-}
-b();
-function b() {
-  let x = 100;
+  var x = 1;
   console.log(x);
 }
-console.log(x);
+function b() {
+  var x = 10;
+  console.log(x);
+}
+b();
 a();
-var x = 1;
+// console.log(x);
+// console.log(x);
+let x = 100;
 console.log(x);
